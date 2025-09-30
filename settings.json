@@ -1,0 +1,85 @@
+{
+    // Python and Related Settings
+    "python.languageServer": "Pylance",
+    "python.createEnvironment.trigger": "off",
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.typeCheckingMode": "off",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "jupyter.askForKernelRestart": false,
+    "notebook.defaultFormatter": "charliermarsh.ruff",
+    "notebook.formatOnSave.enabled": true,
+    // Editor General Settings
+    "editor.formatOnSave": true,
+    "editor.fontSize": 17,
+    "editor.lineHeight": 30,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.colorDecorators": false,
+    "editor.semanticTokenColorCustomizations": {
+        "[One Dark Pro]": {
+            "enabled": true,
+            "rules": {
+                //"variable.readonly:python": "#FFFFFA",
+            }
+        }
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    // Appearance and Theme Settings
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "workbench.iconTheme": "ayu",
+    // Extension Specific Settings
+    "ruff.nativeServer": "on",
+    "ruff.lineLength": 119,
+    "ruff.configuration": "~/.config/ruff/ruff.toml",
+    "material-icon-theme.saturation": 1,
+    "material-icon-theme.opacity": 0.8,
+    "material-icon-theme.hidesExplorerArrows": false,
+    "material-icon-theme.activeIconPack": "none",
+    "[terraform]": {
+        "editor.defaultFormatter": "hashicorp.terraform",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.formatAll.terraform": "explicit"
+        }
+    },
+    "[terraform-vars]": {
+        "editor.defaultFormatter": "hashicorp.terraform",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.formatAll.terraform": "explicit"
+        }
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "redhat.telemetry.enabled": false,
+    "docker.extension.dockerEngineAvailabilityPrompt": false,
+    // Terminal and Environment Settings
+    "terminal.integrated.env.osx": {
+        "PYTORCH_ENABLE_MPS_FALLBACK": "1",
+        "Q_NEW_SESSION": "1"
+    },
+    "terminal.external.osxExec": "Ghostty.app",
+    "docker.extension.enableComposeLanguageServer": false,
+    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+}
