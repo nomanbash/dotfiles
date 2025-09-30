@@ -1,0 +1,5 @@
+custom-shader = ~/.config/ghostty/shader_files/starfield-colors.glsl
+
+
+
+# vim: ft=config

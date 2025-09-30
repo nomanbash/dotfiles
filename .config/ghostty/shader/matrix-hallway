@@ -1,0 +1,6 @@
+
+custom-shader = ~/.config/ghostty/shader_files/matrix-hallway.glsl
+
+
+
+# vim: ft=config

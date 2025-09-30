@@ -1,0 +1,6 @@
+
+custom-shader = ~/.config/ghostty/shader_files/inside-the-matrix.glsl
+
+
+
+# vim: ft=config

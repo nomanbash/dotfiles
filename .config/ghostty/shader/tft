@@ -1,0 +1,5 @@
+custom-shader = ~/.config/ghostty/shader_files/tft.glsl
+
+
+
+# vim: ft=config

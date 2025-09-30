@@ -1,0 +1,5 @@
+custom-shader = ~/.config/ghostty/shader_files/dither.glsl
+
+
+
+# vim: ft=config

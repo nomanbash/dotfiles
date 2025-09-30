@@ -1,0 +1,5 @@
+custom-shader = ~/.config/ghostty/ghostty-shaders/bettercrt.glsl
+
+
+
+# vim: ft=config

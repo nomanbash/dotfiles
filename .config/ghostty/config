@@ -1,0 +1,22 @@
+adjust-underline-position = 8
+adjust-underline-thickness = 2
+alpha-blending = linear-corrected
+auto-update-channel = "tip"
+cursor-invert-fg-bg = true
+custom-shader-animation = "always"
+font-thicken = true
+macos-icon = "custom-style"
+macos-icon-frame = "aluminum"
+macos-icon-ghost-color = "86e1fc"
+macos-icon-screen-color = "222436"
+macos-option-as-alt = "true"
+mouse-hide-while-typing = "true"
+unfocused-split-fill = "#727169"
+
+keybind = "global:super+ctrl+.=toggle_quick_terminal"
+
+config-file = font/jetbrains-mono
+config-file = opacity/75%
+config-file = shader/none
+config-file = leading/default
+config-file = theme/monokai-pro

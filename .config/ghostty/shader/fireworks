@@ -1,0 +1,5 @@
+custom-shader = ~/.config/ghostty/shader_files/fireworks.glsl
+
+
+
+# vim: ft=config
