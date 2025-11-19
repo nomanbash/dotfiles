@@ -15,11 +15,15 @@
     "jupyter.askForKernelRestart": false,
     "notebook.defaultFormatter": "charliermarsh.ruff",
     "notebook.formatOnSave.enabled": true,
+    //javascript
+      "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
     // Editor General Settings
     "editor.formatOnSave": true,
     "editor.fontSize": 17,
     "editor.lineHeight": 30,
-    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "Iosevka Nerd Font Mono",
     "editor.colorDecorators": false,
     "editor.semanticTokenColorCustomizations": {
         "[One Dark Pro]": {
@@ -29,7 +33,7 @@
             }
         }
     },
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.ignoreTrimWhitespace": true,
     // Appearance and Theme Settings
     "window.autoDetectColorScheme": true,
     "workbench.preferredDarkColorTheme": "One Dark Pro",
@@ -67,6 +71,7 @@
         "Q_NEW_SESSION": "1"
     },
     "terminal.external.osxExec": "Ghostty.app",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
     "docker.extension.enableComposeLanguageServer": false,
     "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
     "github.copilot.nextEditSuggestions.enabled": true,
@@ -81,5 +86,7 @@
             "strings": true
         },
         "editor.defaultFormatter": "redhat.vscode-yaml"
-    }
+    },
+    "workbench.preferredLightColorTheme": "One Dark Pro",
+    "chat.disableAIFeatures": true,
 }
