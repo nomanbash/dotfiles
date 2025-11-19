@@ -81,5 +81,5 @@
             "strings": true
         },
         "editor.defaultFormatter": "redhat.vscode-yaml"
-    },
+    }
 }
